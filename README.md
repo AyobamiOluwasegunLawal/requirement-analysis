@@ -1,6 +1,6 @@
 # Requirement Analysis in Software Development.
 
-# Introduction
+## Introduction
 This repository has been created to document and demonstrate the process of __Requirement Analysis__ in the context of software development. It serves as a structured guild for understanding how requirements are gathered, analyzed, modeled, and validated before the design and implementation phases begin.
 
 The purpose of this repository is to illustrate how effective requirement analysis forms the foundation of a successful software project. By using a practical **Booking Management System** as a case study, the repository highlights key concepts, methodologies, and deliverables associated with this critical stage of the __Software Development Lifecycle (SDLC).
@@ -8,3 +8,13 @@ The purpose of this repository is to illustrate how effective requirement analys
 Within this repository, you will find detailed explanations of the different stages and activities involved in requirement analysis, including requrement gathering, documentations, and validation. It also explores the classification of requirements, and provides a visual representation through use case diagrams, and concludes with examples well-defined acceptance criteria.
 
 This resource is intended for **students, software engineers, and analysts** who seek to strengthen their understanding of requirement engineering practices and learn how to translate stakeholder needs into actionable software specifications.
+
+## What is Requirement Analysis?
+Requirement Analysis is a critical phase in the software development lifecycle (SDLC) where the project team gathers, analyzes, and defines the requirements of the software product to be developed. This process ensures that all stakeholders have a clear and mutual understanding of what the system should do and how it should perform.
+
+### Why is Requirement Analysis Important?
+- **Clarity and Understanding:** It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
+- __Scope Definition:__ Clearly defines the scope of the project, which helps in preventing scope creep.
+- __Basis for Design and Development:__ Provides a solid foundation for designing and developing the system.
+- **Cost and Time Estimation:** Facilitates accurate estimation of project cost, resources, and time.
+- **Quality Assurance:** Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
