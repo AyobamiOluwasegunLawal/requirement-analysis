@@ -114,3 +114,46 @@ The essential use cases for the system include:
 Below is the use case diagram representing these interactions. The image can be created using tools like Draw.io, Lucidchart, or Creately, then exported and embedded into the repository.
 
 ![UML Use Case Diagram for Airbnb Booking App](./alx-booking-uc.png)
+
+### Acceptance Criteria.
+#### Purpose
+Acceptance Criteria define the specific conditions that a software feature must meet to be accepted as complete and functional.  
+They act as a bridge between requirements and testing, ensuring that developers, testers, and stakeholders share the same understanding of what “done” truly means.  
+When written clearly, they remove assumptions, reduce rework, and ensure that development stays aligned with user needs.
+
+---
+
+#### Importance in Requirement Analysis
+1. **Clarity and Alignment:**  
+   Acceptance Criteria translate user needs into measurable outcomes, helping every team member know exactly what to build and test.
+
+2. **Quality Assurance:**  
+   They provide a concrete basis for validation and testing, confirming that each feature delivers the intended value.
+
+3. **Scope Management:**  
+   Well-defined criteria prevent scope creep by limiting acceptance to predetermined conditions.
+
+4. **User Satisfaction:**  
+   Meeting clear criteria ensures that the final feature behaves exactly as users expect, strengthening confidence in the system.
+
+---
+
+#### Example – Checkout Feature (Booking Management System)
+
+**Feature:** Checkout and Payment
+
+**Acceptance Criteria:**
+- The system should allow a **registered user** to view their booking summary before checkout.  
+- The user must be able to **select a preferred payment method** (credit card, wallet, or third-party gateway).  
+- The **payment gateway** must securely process the transaction and return a confirmation response.  
+- Upon successful payment, the system should:  
+  - Generate a **unique booking confirmation ID**.  
+  - Send an **email and in-app notification** to the user.  
+- If payment fails, the system should display an **error message** and allow the user to retry without losing data.  
+- All completed transactions must be **logged and viewable** in the user’s booking history.
+
+---
+
+> **Summary:**  
+> Acceptance Criteria serve as the final checkpoint between expectation and delivery.  
+> They transform abstract requirements into concrete, testable conditions — ensuring the software truly meets its purpose.
