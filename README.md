@@ -78,7 +78,39 @@ Non-functional requirements are critical to ensuring the stability, efficiency, 
 
 Together, functional and non-functional requirements form the **blueprint of a successful software system**. Functional requirements define what the system does, while non-functional requirements ensure it does those things well. Both must be analyzed and documented carefully during the **Requirement Analysis phase** to achieve a high-quality, user-centered product.
 
-### Use CAse Diagrams.
+### Use Case Diagrams.
 Use Case Diagrams are a vital component of the Requirement Analysis process. They visually represent the interactions between **users (actors)** and the **system**, helping both developers and stakeholders understand how the software will function from a user’s perspective.
 
 In the context of a **Booking Management System**, the use case diagram identifies the main actors and the primary functions they perform within the system. This visualization simplifies communication, ensures alignment between teams, and provides a foundation for designing user stories and system workflows.
+
+1. **Actors in the System**
+
+The primary actors for the Booking Management System include:
+
+- **Guest:** The end user who is not yet registered/authenticated but interacts with the system with limitations to search, and view bookings only.
+
+- **Registered User:** The end user who is registered/authenticated and interacts with the system to search, book, pay and manage reservations. 
+
+- **Administrator:** Responsible for managing user accounts, system configurations, and monitoring bookings.
+
+2. **Key Use Cases
+
+The essential use cases for the system include:
+
+- **Register / Login:** Enables customers to create and access their accounts.
+
+- **Search Availability:** Allows users to view available rooms, services, or events.
+
+- **Make a Booking:** Facilitates the reservation process by confirming selected dates and services.
+
+- **Make Payment:** Integrates with the payment gateway to process transactions securely.
+
+- **View / Modify / Cancel Booking:** Enables users to manage their bookings according to established policies.
+
+- **Manage System (Admin):** Allows administrators to view all transactions, update listings, and handle system maintenance tasks.
+
+3. **Visual Representation
+
+Below is the use case diagram representing these interactions. The image can be created using tools like Draw.io, Lucidchart, or Creately, then exported and embedded into the repository.
+
+![UML Use Case Diagram for Airbnb Booking App](./alx-booking-uc.png)
